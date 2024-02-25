@@ -21,7 +21,7 @@ import java.io.Serializable;
 import java.util.Collection;
 
 /**
- *
+ * Classe Entity representant MICRO_MARKET
  * @author Aldramech
  */
 @Entity

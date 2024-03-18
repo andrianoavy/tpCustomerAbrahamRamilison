@@ -10,7 +10,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jakartaee>10.0.0</jakartaee>
-	<primefaces>13.0.0</primefaces>
+	<primefaces>14.0.0-RC2</primefaces>
     </properties>
     
     <dependencies>

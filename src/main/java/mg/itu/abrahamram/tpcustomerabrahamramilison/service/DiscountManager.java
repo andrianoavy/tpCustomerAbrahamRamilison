@@ -25,11 +25,11 @@ public class DiscountManager {
 	private EntityManager em;
 
 	/**
-	* Retourne la liste des réductions dans l'ordre croissant du taux de réduction(utiliser `findAllOrderByRateDESC` pour obtenir l'ordre décroissant)
-	* @return Une liste de Discount(order ASC)
+	* Retourne la liste des réductions dans l'ordre décroissant du taux de réduction(utiliser `findAllOrderByRateASC` pour obtenir l'ordre croissant)
+	* @return Une liste de Discount(order DESC)
 	*/
 	public List<Discount> getAllDiscounts() {
-		Query query = em.createNamedQuery("Discount.findAllOrderByRateASC");
+		Query query = em.createNamedQuery("Discount.findAllOrderByRateDESC");
 		return query.getResultList();
 	}
 
